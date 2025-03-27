@@ -1,0 +1,14 @@
+[
+    {
+        "value": "",
+        "label": "All projects"
+    },
+    {
+        "value": "software",
+        "label": "Software/Web projects only"
+    },
+    {
+        "value": "game",
+        "label": "Game Development projects only"
+    }
+]

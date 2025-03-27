@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Product Web App",
+        "shortDesc": "A web app show casing the use of motion effects, 3D rendering and integration of backend services.",
+        "longDesc": "Software/Tools: Remix/React, Tailwind CSS, .NET, MongoDB, Netlify, GitHub Actions\n\nThe project demo is deployed to Netlify using a basic CI/CD configuration with GitHub Actions with the backend services deployed to Azure App Service.",
+        "type": "software",
+        "url": "https://your_demo_url.com/",
+        "repo": "https://github.com/your-github-username/repo-for-this-project",
+        "img": "product-web-app.jpg",
+        "imgWidth": 1206,
+        "imgHeight": 753
+    },
+    {
+        "title": "This Portfolio!",
+        "shortDesc": "A mobile friendly responsive design portfolio in NextJS with modular components.",
+        "longDesc": "Software/Tools: NextJS/React, Tailwind CSS, Vercel, GitHub Actions\n\nThe project demo is deployed to Vercel using a basic CI/CD configuration with GitHub Actions.",
+        "type": "software",
+        "url": "",
+        "repo": "",
+        "img": "portfolio.jpg",
+        "imgWidth": 1206,
+        "imgHeight": 753
+    }
+]

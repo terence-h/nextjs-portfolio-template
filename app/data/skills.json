@@ -1,0 +1,32 @@
+{
+    "Frontend": [
+        {
+            "name": "Next.js",
+            "description": "Next.js",
+            "iconName": "nextjs",
+            "iconFormat": "png"
+        }
+    ],
+    "Backend": [
+        {
+            "name": ".NET",
+            "description": ".NET",
+            "iconName": "dotnet",
+            "iconFormat": "svg"
+        }
+    ],
+    "Languages": [
+        {
+            "name": "TypeScript",
+            "description": "TypeScript",
+            "iconName": "typescript",
+            "iconFormat": "svg"
+        },
+        {
+            "name": "HTML",
+            "description": "HTML",
+            "iconName": "html",
+            "iconFormat": "svg"
+        }
+    ]
+}

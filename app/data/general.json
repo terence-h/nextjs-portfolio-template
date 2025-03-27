@@ -1,0 +1,13 @@
+{
+    "name": "your_name_here",
+    "role": "your_role_here",
+    "introduction": "Hi, my name is your_name_here. I am happi.",
+    "github": "https://github.com/your-github-username?tab=repositories",
+    "linkedin": "https://www.linkedin.com/in/your-linkedin-url",
+    "email": "your_email@domain.com",
+    "resumeUrl": "/download/Resume.pdf",
+    "profilePicture": {
+        "url": "/images/profile-picture.png",
+        "width": 1142
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "heading": "Company ABC",
+        "subheading": "Software Engineer",
+        "duration": "Jun 2024 - Present",
+        "type": "work",
+        "pointers": [
+            "Successfully developed 2 full SDLC products",
+            "Maintained and enhanced web UI and backend API controllers for an eCommerce website."
+        ]
+    },
+    {
+        "heading": "University XYZ",
+        "subheading": "Bachelor of Science in Computer Science",
+        "duration": "Apr 2021 - Apr 2024",
+        "type": "education",
+        "pointers": [
+            "GPA: 4.52/5.00",
+            "Director's List for Academic Year 2021 to 2024"
+        ]
+    }
+]
