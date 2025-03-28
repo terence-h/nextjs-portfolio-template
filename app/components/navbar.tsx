@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion";
 import { MouseEventHandler, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -19,6 +19,8 @@ export default function NavBar() {
     const { activeSection } = useActiveSectionContext();
     const { isDarkMode, toggleDarkMode } = useDarkMode();
     const [isOpen, setIsOpen] = useState(false);
+    const { scrollY } = useScroll();
+    const opacity = useTransform(scrollY, [0, 200], [0, 1]);
 
     return (
         <>
@@ -85,11 +87,15 @@ export default function NavBar() {
                 :
                 // DESKTOP
                 // dark:bg-black/10
-                <motion.nav className="fixed top-0 left-0 right-0 mx-auto pt-3 pb-3 backdrop-blur-md z-[49]"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 1 }}
+                // <motion.nav className="fixed top-0 left-0 right-0 mx-auto pt-3 pb-3 backdrop-blur-md z-[49]"
+                //     initial={{ opacity: 0 }}
+                //     animate={{ opacity: 1 }}
+                //     exit={{ opacity: 0 }}
+                //     transition={{ duration: 1 }}
+                // >
+                <motion.nav
+                    style={{ opacity }}
+                    className="fixed top-0 left-0 right-0 mx-auto pt-3 pb-3 backdrop-blur-md z-[49]"
                 >
                     <nav className="grid grid-flow-row grid-cols-12 w-5/6 mx-auto">
                         <div className="col-span-2 mr-auto flex items-center text-sm"></div>

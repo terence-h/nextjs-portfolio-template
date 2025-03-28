@@ -22,30 +22,27 @@ export default function Home() {
             <div className="mt-8"></div>
           }
           {settings.sections.about &&
-            <>
-              <div className="mt-8 md:mt-0"></div>
-              <Section id="about" className="flex w-11/12 h-svh items-center justify-center md:w-5/6 mx-auto" header={false}>
-                <About />
-              </Section>
-            </>
+            <Section id="about" className="flex w-11/12 min-h-fit h-svh items-center justify-center md:w-5/6 mx-auto" header={false}>
+              <About />
+            </Section>
           }
           {settings.sections.skills &&
-            <Section id="skills" className="flex flex-col h-auto w-11/12 md:w-5/6 mx-auto text-center mt-2 md:mt-7">
+            <Section id="skills" className="flex flex-col min-h-fit h-auto w-11/12 md:w-5/6 mx-auto text-center mt-2 md:mt-7">
               <Skills />
             </Section>
           }
           {settings.sections.journey &&
-            <Section id="journey" className="flex flex-col h-auto w-11/12 md:w-5/6 mx-auto mt-2 md:mt-7">
+            <Section id="journey" className="flex flex-col min-h-fit h-auto w-11/12 md:w-5/6 mx-auto mt-2 md:mt-7">
               <Journey />
             </Section>
           }
           {settings.sections.projects &&
-            <Section id="projects" className="flex flex-row flex-wrap h-auto w-11/12 md:w-5/6 mx-auto mt-2 md:mt-7">
+            <Section id="projects" className="flex flex-row flex-wrap min-h-fit h-auto w-11/12 md:w-5/6 mx-auto mt-2 md:mt-7">
               <Projects />
             </Section>
           }
           {settings.sections.certifications &&
-            <Section id="certifications" className="flex flex-col h-auto w-11/12 md:w-5/6 mx-auto text-center mt-2 md:mt-7">
+            <Section id="certifications" className="flex flex-col min-h-fit h-auto w-11/12 md:w-5/6 mx-auto text-center mt-2 md:mt-7">
               <Certifications />
             </Section>
           }
